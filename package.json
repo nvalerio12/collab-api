@@ -1,0 +1,25 @@
+{
+  "name": "collab-api",
+  "version": "1.0.0",
+  "description": "building api collaboration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvalerio12/collab-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvalerio12/collab-api/issues"
+  },
+  "homepage": "https://github.com/nvalerio12/collab-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  }
+}
