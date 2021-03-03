@@ -15,4 +15,5 @@ mongoose.connect(connectionString, configOptions)
 
 module.exports = {
     Example: require('./example'),
+    Shoe: require('./shoe'),
 };

@@ -19,6 +19,7 @@ app.get('/v1/', (req, res) => {
 });
 
 app.use('/v1/examples', routes.example);
+app.use('/v1/shoes', routes.shoe);
 
 // Server
 const server = app.listen(PORT, () => console.log(`Server is running on PORT: ${PORT}`));
